@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "id": "admin_1",
+      "email": "quotes.eg",
+      "passwordHash": "10/10/2026",
+      "name": "QUOTES Atelier Admin",
+      "role": "admin",
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    }
+  ],
+  "cities": [],
+  "categories": [
+    {
+      "id": "cat_clothing",
+      "name": "Clothing",
+      "slug": "clothing",
+      "parentId": null,
+      "description": "Urban luxury essentials crafted in Egypt with architectural precision.",
+      "type": "clothing",
+      "displayOrder": 1,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.765Z"
+    },
+    {
+      "id": "cat_hoodies",
+      "name": "Hoodies",
+      "slug": "hoodies",
+      "parentId": "cat_clothing",
+      "description": "Heavyweight architectural hoodies in custom heavyweight cotton.",
+      "type": "clothing",
+      "displayOrder": 1,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_sweatpants",
+      "name": "Sweatpants",
+      "slug": "sweatpants",
+      "parentId": "cat_clothing",
+      "description": "Tailored and baggy sweatpants crafted for urban presence.",
+      "type": "clothing",
+      "displayOrder": 2,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_tshirts",
+      "name": "T-Shirts",
+      "slug": "t-shirts",
+      "parentId": "cat_clothing",
+      "description": "Boxy, oversized and heavyweight combed Egyptian cotton tees.",
+      "type": "clothing",
+      "displayOrder": 3,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_shirts",
+      "name": "Shirts",
+      "slug": "shirts",
+      "parentId": "cat_clothing",
+      "description": "Overshirts, button-ups and structured flannels.",
+      "type": "clothing",
+      "displayOrder": 4,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_jeans",
+      "name": "Jeans",
+      "slug": "jeans",
+      "parentId": "cat_clothing",
+      "description": "Raw and washed Japanese-grade denim with relaxed silhouettes.",
+      "type": "clothing",
+      "displayOrder": 5,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_shorts",
+      "name": "Shorts",
+      "slug": "shorts",
+      "parentId": "cat_clothing",
+      "description": "Cargo and denim streetwear shorts.",
+      "type": "clothing",
+      "displayOrder": 6,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_jackets",
+      "name": "Jackets",
+      "slug": "jackets",
+      "parentId": "cat_clothing",
+      "description": "Bombers, varsity and technical outerwear.",
+      "type": "clothing",
+      "displayOrder": 7,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_pants",
+      "name": "Pants",
+      "slug": "pants",
+      "parentId": "cat_clothing",
+      "description": "Wide-leg trousers and utility cargo pants.",
+      "type": "clothing",
+      "displayOrder": 8,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_oversized_hoodies",
+      "name": "Oversized Hoodies",
+      "slug": "oversized-hoodies",
+      "parentId": "cat_hoodies",
+      "description": "Boxy drop-shoulder cut",
+      "type": "clothing",
+      "displayOrder": 1,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_pullover_hoodies",
+      "name": "Pullover Hoodies",
+      "slug": "pullover-hoodies",
+      "parentId": "cat_hoodies",
+      "description": "Clean minimal pullovers",
+      "type": "clothing",
+      "displayOrder": 2,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_zip_hoodies",
+      "name": "Zip-Up Hoodies",
+      "slug": "zip-up-hoodies",
+      "parentId": "cat_hoodies",
+      "description": "Double metallic zip hoodies",
+      "type": "clothing",
+      "displayOrder": 3,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_graphic_hoodies",
+      "name": "Graphic Hoodies",
+      "slug": "graphic-hoodies",
+      "parentId": "cat_hoodies",
+      "description": "Editorial quote silkscreens",
+      "type": "clothing",
+      "displayOrder": 4,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_heavyweight_tees",
+      "name": "Heavyweight T-Shirts",
+      "slug": "heavyweight-t-shirts",
+      "parentId": "cat_tshirts",
+      "description": "300 GSM dense weave",
+      "type": "clothing",
+      "displayOrder": 1,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "sub_oversized_tees",
+      "name": "Oversized T-Shirts",
+      "slug": "oversized-t-shirts",
+      "parentId": "cat_tshirts",
+      "description": "Relaxed urban fit",
+      "type": "clothing",
+      "displayOrder": 2,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfumes",
+      "name": "Perfumes",
+      "slug": "perfumes",
+      "parentId": null,
+      "description": "Haute parfumerie inspired by nocturnal Egyptian landscapes and raw essences.",
+      "type": "perfume",
+      "displayOrder": 2,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_men",
+      "name": "Men",
+      "slug": "perfume-men",
+      "parentId": "cat_perfumes",
+      "description": "Bold woods, smoky resins, and dark leather.",
+      "type": "perfume",
+      "displayOrder": 1,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_women",
+      "name": "Women",
+      "slug": "perfume-women",
+      "parentId": "cat_perfumes",
+      "description": "White florals, nocturnal jasmine, and radiant amber.",
+      "type": "perfume",
+      "displayOrder": 2,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_unisex",
+      "name": "Unisex",
+      "slug": "perfume-unisex",
+      "parentId": "cat_perfumes",
+      "description": "Boundless olfactive compositions.",
+      "type": "perfume",
+      "displayOrder": 3,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_edp",
+      "name": "Eau de Parfum",
+      "slug": "eau-de-parfum",
+      "parentId": "cat_perfumes",
+      "description": "High concentration long-wear flacons.",
+      "type": "perfume",
+      "displayOrder": 4,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_edt",
+      "name": "Eau de Toilette",
+      "slug": "eau-de-toilette",
+      "parentId": "cat_perfumes",
+      "description": "Fresh and radiant everyday sillage.",
+      "type": "perfume",
+      "displayOrder": 5,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    },
+    {
+      "id": "cat_perfume_discovery",
+      "name": "Discovery Sets",
+      "slug": "discovery-sets",
+      "parentId": "cat_perfumes",
+      "description": "Curated miniature collections.",
+      "type": "perfume",
+      "displayOrder": 6,
+      "activeStatus": true,
+      "createdAt": "2026-10-08T10:21:21.766Z"
+    }
+  ],
+  "products": [],
+  "productImages": [],
+  "productVariants": [],
+  "productAttributes": [],
+  "orders": [],
+  "orderItems": [],
+  "orderStatusHistory": [],
+  "paymentReceipts": [],
+  "settings": {
+    "brandName": "QUOTES",
+    "brandSymbol": "\"",
+    "contactEmail": "contact@quotes-brand.com",
+    "contactPhone": "+20 100 123 4567",
+    "instapayAccount": "quotes.store@instapay",
+    "instapayInstructions": "Please transfer the exact order amount to our InstaPay handle: quotes.store@instapay. Once sent, upload a screenshot of your payment receipt below for instant order verification.",
+    "shippingFee": 85,
+    "freeShippingThreshold": 2000,
+    "lowStockThreshold": 5,
+    "storeStatus": "open",
+    "storeClosedMessage": "Our store is currently preparing the next private drop. You can explore the archive, but checkout is temporarily paused.",
+    "seoTitle": "QUOTES — Luxury Egyptian Fashion & Fragrance",
+    "seoDescription": "Editorial urban fashion and haute parfumerie conceived in Egypt. Architectural cuts and nocturnal scent journeys."
+  }
+}

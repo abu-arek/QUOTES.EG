@@ -1,0 +1,6 @@
+{
+  "name": "QUOTES — Luxury Fashion & Fragrance",
+  "description": "Premium Egyptian fashion and fragrance brand. Real full-stack e-commerce store with editorial urban identity, dynamic categories, city collections, and owner admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
